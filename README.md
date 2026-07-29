@@ -68,16 +68,14 @@ Notebook	Description
 ## Software requirements
 
 ### R environment
-The R analyses were developed using R and the packages listed in `renv.lock`.
-These include: 
-- R version 4.5.3
-- Packages:
-  - vegan
-  - corrplot
-  - FactoMineR
-  - factoextra
-  - ggplot2
-  - renv
+The R code was developed using R version 4.5.3 and the packages listed in `renv.lock`.
+The packages include: 
+ - vegan
+ - corrplot
+ - FactoMineR
+ - factoextra
+ - ggplot2
+ - renv
 
 The R environment can be reproduced using:
 ```r
@@ -87,71 +85,33 @@ renv::restore()
 This will install the required R packages with the appropriate versions.
 
 ### Python environment
-The Python code was developed using Python 3.10.12 and Jupyter Notebook 7.5.5.
+The Python code was developed using Python version 3.10.12 and Jupyter Notebook version 7.5.5.
 Required Python dependencies are listed in `requirements.txt`.
-Install the required Python packages using:
+Install the dependencies using:
 ```
 pip install -r requirements.txt
+```
 
 ## Data Availability
-
 The datasets used in this study are not included in this repository.
 The analyses scripts require the relevant input datasets to be available in the appropriate directory before execution. Please refer to the associated publication for information on data availability.
 
-## Running the Analysis
+## Running the Code 
 
-### R Analysis
-
+### R Scripts
 1. Open the project in RStudio.
-2. Restore the R environment:
-
+2. Restore the required R package environment using:
 ```r
 renv::restore()
 ```
-3. Run the R scripts in any order, as they are independent and do not need to be executed sequentially.
+3. Run the R scripts located in the R/ directory. The scripts are independent and can be executed in any order; they do not need to be run sequentially.
 
+### Jupyter Notebooks
+1. Launch Jupyter Notebook using:
 ```
-01_data_processing.R
-02_statistical_analysis.R
-03_visualization.R
-```
-
-### Python Analyses
-The Python analyses were developed using Jupyter Notebook 7.5.5.
-
-Install the required Python packages:
-
-pip install -r requirements.txt
-
-Launch Jupyter Notebook:
-
 jupyter notebook
-
-Open the notebooks in the python/ directory. The notebooks are independent and may be executed in any order.
-
-
-
-The Python analyses were developed using Jupyter Notebook (version 7.5.5).
-
-After installing the required packages, launch Jupyter Notebook:
-
-jupyter notebook
-
-Then open the notebook (.ipynb) from the python/ directory and run the cells in the order in which they appear.
-
-Ensure the Python environment is configured:
-
-```bash
-pip install -r requirements.txt
 ```
-
-Then run:
-
-```bash
-python analysis.py
-```
-
----
+2. Open the notebook (.ipynb) from the python/ directory and execute the cells in the order they are written. The notebooks are independent and may be executed in any order. 
 
 ## Outputs
 

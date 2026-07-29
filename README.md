@@ -155,6 +155,6 @@ If you use this code, please cite the associated research article and this repos
 Software repository:
 Author(s). (Year). copper-smelting-environmental-impact.
 Zenodo. DOI: [insert DOI]
-```
+
 ## License
 This project is released under the MIT License.

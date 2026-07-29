@@ -29,6 +29,7 @@ copper-smelting-environmental-impact/
 ```
 
 Repository Structure
+```
 copper-smelting-environmental-impact/
 │
 ├── R/
@@ -52,7 +53,7 @@ copper-smelting-environmental-impact/
 ├── README.md
 ├── LICENSE
 └── CITATION.cff
-
+```
 R Scripts
 Script	Description
 01_data_processing.R	Imports, cleans, and prepares the data for analysis.
@@ -114,58 +115,46 @@ jupyter notebook
 2. Open the notebook (.ipynb) from the python/ directory and execute the cells in the order they are written. The notebooks are independent and may be executed in any order. 
 
 ## Outputs
-
 The scripts generate the statistical results, tables, and figures used in the research study.
-
-Generated outputs may include:
-
-* Statistical summaries
-* Ordination analyses
-* Data visualizations
-* Publication-quality figures
-
----
+The generated outputs include:
+- Statistical summaries and model results
+- Regression analysis results and associated figures
+- Ordination analyses and associated plots
+- Data visualizations
+- Publication-quality figures used in the manuscript
+- Tables summarizing analytical results
 
 ## Reproducibility
+This repository is structured to support reproducible research by documenting the computational environments and analytical workflow used in the study.
+The following files are provided:
+* renv.lock records the R package environment, including the specific package versions required to reproduce the R-based analyses.
+* requirements.txt records the Python dependencies required to run the Python-based analyses.
+* Version-controlled R scripts and Jupyter notebooks document the complete analytical workflow and allow the analyses to be reproduced.
 
-This repository uses:
+## Authors
 
-* `renv.lock` to record the R package environment.
-* `requirements.txt` to record Python dependencies.
-* Version-controlled scripts to document the analytical workflow.
+**Tracy Chisanga**  
+Corresponding author and repository maintainer
 
+ORCID: https://orcid.org/0000-0001-8281-0901
+
+For questions regarding the code or analysis, please contact:
+
+tracy.chisanga@gmail.com
+
+## Contributors
+This repository contains code developed as part of the research study by:
+- Tracy Chisanga (Corresponding author)
+- Santhi Kumaran
+- Josephat Kalezhi
+- Omar Haji Kombo
 
 ## Citation
 
-If you use this code or adapt the analysis workflow, please cite the associated research article and this repository.
-
-Suggested citation:
-
-```
-Author(s). Environmental Impact of Copper Smelting on Surrounding Areas:
-Case Study of Kankoyo Township. [Journal/Conference details].
-
+If you use this code, please cite the associated research article and this repository.
 Software repository:
 Author(s). (Year). copper-smelting-environmental-impact.
 Zenodo. DOI: [insert DOI]
 ```
-
----
-
 ## License
-
-This project is released under the MIT License.
-
-See the `LICENSE` file for details.
-
----
-
-## Author
-
-**[Your Name]**
-
-ORCID: [Your ORCID iD]
-
-For questions regarding the code or analysis, please contact:
-
-[Your email address]
+This project is released under the MIT License. See the `LICENSE` file for details.

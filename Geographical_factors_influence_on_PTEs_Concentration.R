@@ -6,8 +6,6 @@ library(factoextra)
 library(ggplot2)
 library(renv)
 
-renv::init()
-renv::snapshot()
 ### Importing the Topsoil Dataset ###
 
 if (!file.exists("data/Topsoil_RS.csv")) {

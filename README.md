@@ -1,4 +1,4 @@
-# copper-smelting-environmental-impact
+# Environmental Impact of Copper Smelting on Surrounding Areas: Case Study of Kankoyo Township
 ## Overview
 This repository contains the source code used for the analysis presented in the research paper:
 **"Environmental Impact of Copper Smelting on Surrounding Areas: Case Study of Kankoyo Township"**
@@ -34,8 +34,8 @@ copper-smelting-environmental-impact/
 │
 ├── R/
 │   ├── 01_data_processing.R
-│   ├── 02_statistical_analysis.R
-│   └── 03_visualization.R
+│   │
+    └── 03_visualization.R
 │
 ├── python/
 │   ├── 01_notebook_name.ipynb
@@ -157,4 +157,4 @@ Author(s). (Year). copper-smelting-environmental-impact.
 Zenodo. DOI: [insert DOI]
 ```
 ## License
-This project is released under the MIT License. See the `LICENSE` file for details.
+This project is released under the MIT License.

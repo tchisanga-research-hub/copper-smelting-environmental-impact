@@ -28,9 +28,48 @@ copper-smelting-environmental-impact/
 └── CITATION.cff
 ```
 
-### Software requirements
+Repository Structure
+copper-smelting-environmental-impact/
+│
+├── R/
+│   ├── 01_data_processing.R
+│   ├── 02_statistical_analysis.R
+│   └── 03_visualization.R
+│
+├── python/
+│   ├── 01_notebook_name.ipynb
+│   ├── 02_notebook_name.ipynb
+│   ├── 03_notebook_name.ipynb
+│   ├── 04_notebook_name.ipynb
+│   └── 05_notebook_name.ipynb
+│
+├── renv/
+│   ├── activate.R
+│   └── settings.json
+│
+├── renv.lock
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── CITATION.cff
+
+R Scripts
+Script	Description
+01_data_processing.R	Imports, cleans, and prepares the data for analysis.
+02_statistical_analysis.R	Performs the statistical analyses presented in the study.
+03_visualization.R	Generates the figures and visualizations reported in the manuscript.
+Python Notebooks
+Notebook	Description
+01_notebook_name.ipynb	Performs the first stage of the Python analysis.
+02_notebook_name.ipynb	Carries out additional data processing and exploratory analysis.
+03_notebook_name.ipynb	Implements the main analytical methods used in the study.
+04_notebook_name.ipynb	Produces supplementary analyses or validation results.
+05_notebook_name.ipynb	Generates figures, tables, or additional outputs for the manuscript.
+## Software requirements
 
 ### R environment
+The R analyses were developed using R and the packages listed in `renv.lock`.
+These include: 
 - R version 4.5.3
 - Packages:
   - vegan
@@ -40,70 +79,24 @@ copper-smelting-environmental-impact/
   - ggplot2
   - renv
 
-The R package environment is provided in `renv.lock` and can be restored using:
-```r
-install.packages("renv")
-renv::restore()
-
-### Python environment
-- Python version 3.10.12
-- Packages:
-  - scipy==1.15.3
-  - statsmodels==0.14.6
-  - scikit-learn==1.7.2
-  - numpy==2.2.6
-  - openpyxl==3.1.5
-  - pandas==2.3.3
-  - seaborn==0.13.2
-  - matplotlib==3.10.8
-  - notebook==7.5.5
-
-
-
-
-
----
-
-## Software Requirements
-
-### R Environment
-
-The R analyses were developed using R and the packages listed in `renv.lock`.
-
 The R environment can be reproduced using:
-
 ```r
 install.packages("renv")
 renv::restore()
 ```
-
 This will install the required R packages with the appropriate versions.
 
-### Python Environment
-
-Python dependencies are listed in:
-
-```
-requirements.txt
-```
-
+### Python environment
+The Python code was developed using Python 3.10.12 and Jupyter Notebook 7.5.5.
+Required Python dependencies are listed in `requirements.txt`.
 Install the required Python packages using:
-
-```bash
-pip install -r requirements.txt
 ```
-
----
+pip install -r requirements.txt
 
 ## Data Availability
 
 The datasets used in this study are not included in this repository.
-
-The analysis scripts require the relevant input datasets to be available in the appropriate directory before execution. Please refer to the associated publication for information on data sources and availability.
-
-If applicable, replace this section with details on how the data can be accessed.
-
----
+The analyses scripts require the relevant input datasets to be available in the appropriate directory before execution. Please refer to the associated publication for information on data availability.
 
 ## Running the Analysis
 
@@ -115,8 +108,7 @@ If applicable, replace this section with details on how the data can be accessed
 ```r
 renv::restore()
 ```
-
-3. Run the R scripts in numerical order:
+3. Run the R scripts in any order, as they are independent and do not need to be executed sequentially.
 
 ```
 01_data_processing.R
@@ -124,7 +116,28 @@ renv::restore()
 03_visualization.R
 ```
 
-### Python Analysis
+### Python Analyses
+The Python analyses were developed using Jupyter Notebook 7.5.5.
+
+Install the required Python packages:
+
+pip install -r requirements.txt
+
+Launch Jupyter Notebook:
+
+jupyter notebook
+
+Open the notebooks in the python/ directory. The notebooks are independent and may be executed in any order.
+
+
+
+The Python analyses were developed using Jupyter Notebook (version 7.5.5).
+
+After installing the required packages, launch Jupyter Notebook:
+
+jupyter notebook
+
+Then open the notebook (.ipynb) from the python/ directory and run the cells in the order in which they appear.
 
 Ensure the Python environment is configured:
 
@@ -161,9 +174,6 @@ This repository uses:
 * `requirements.txt` to record Python dependencies.
 * Version-controlled scripts to document the analytical workflow.
 
-These files allow other researchers to recreate the computational environment used in the study.
-
----
 
 ## Citation
 

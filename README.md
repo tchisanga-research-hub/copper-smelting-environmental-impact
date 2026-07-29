@@ -1,4 +1,4 @@
-# Environmental Impact of Copper Smelting on Surrounding Areas: Case Study of Kankoyo Township
+# copper-smelting-environmental-impact
 ## Overview
 This repository contains the source code used for the analysis presented in the research paper:
 **"Environmental Impact of Copper Smelting on Surrounding Areas: Case Study of Kankoyo Township"**
@@ -6,59 +6,25 @@ This repository contains the source code used for the analysis presented in the 
 The repository provides the R and Python scripts used for data processing, statistical analyses, Regression analyses, visualization, and generation of results reported in the study.
 
 ## Repository Structure
-```
+```text
 copper-smelting-environmental-impact/
 │
-├── R/
-│   ├── 01_data_processing.R
-│   ├── 02_statistical_analysis.R
-│   └── 03_visualization.R
-│
 ├── python/
-│   └── analysis.py
+│   ├── Normality_Tests.ipynb
+│   ├── PCA_analysis.ipynb
+│   ├── Regression_Analyses.ipynb
+│   └── Spearman's_Correlation.ipynb
 │
-├── renv/
-│   ├── activate.R
-│   └── settings.json
+├── R/
+│   ├── Geographical_factors_influence_on_PTEs_Concentration.R
+│   └── Soil_properties_influence_on_PTEs_concentrations.R
 │
-├── renv.lock
-├── requirements.txt
-├── README.md
 ├── LICENSE
-└── CITATION.cff
+├── README.md
+├── renv.lock
+└── requirements.txt
 ```
 
-Repository Structure
-```
-copper-smelting-environmental-impact/
-│
-├── R/
-│   ├── 01_data_processing.R
-│   │
-    └── 03_visualization.R
-│
-├── python/
-│   ├── 01_notebook_name.ipynb
-│   ├── 02_notebook_name.ipynb
-│   ├── 03_notebook_name.ipynb
-│   ├── 04_notebook_name.ipynb
-│   └── 05_notebook_name.ipynb
-│
-├── renv/
-│   ├── activate.R
-│   └── settings.json
-│
-├── renv.lock
-├── requirements.txt
-├── README.md
-├── LICENSE
-└── CITATION.cff
-```
-R Scripts
-Script	Description
-01_data_processing.R	Imports, cleans, and prepares the data for analysis.
-02_statistical_analysis.R	Performs the statistical analyses presented in the study.
-03_visualization.R	Generates the figures and visualizations reported in the manuscript.
 Python Notebooks
 Notebook	Description
 01_notebook_name.ipynb	Performs the first stage of the Python analysis.
@@ -66,6 +32,12 @@ Notebook	Description
 03_notebook_name.ipynb	Implements the main analytical methods used in the study.
 04_notebook_name.ipynb	Produces supplementary analyses or validation results.
 05_notebook_name.ipynb	Generates figures, tables, or additional outputs for the manuscript.
+
+R Scripts
+Script	Description
+01_data_processing.R	Imports, cleans, and prepares the data for analysis.
+02_statistical_analysis.R	Performs the statistical analyses presented in the study.
+03_visualization.R	Generates the figures and visualizations reported in the manuscript.
 ## Software requirements
 
 ### R environment

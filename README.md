@@ -107,12 +107,12 @@ The generated outputs include:
 - Publication-quality figures used in the manuscript
 - Tables summarizing analytical results
 
-The Tables below show the output that are produced and included in the manuscript
+The Tables below show the output produced that are included in the manuscript.
 #### Jupyter Notebooks
 
 |Notebooks| Outputs Used in Manuscript   |
 |----------|-------------|
-| `Normality_Tests.ipynb` | Table 3, Table 4, Figure 5 and Figure 6 |
+| `Normality_Tests.ipynb` | Table 2, Table 3, Table 4, Figure 5 and Figure 6 |
 | `PCA_analysis.ipynb` | Figure 11 and loadings 
 | `Regression_Analyses.ipynb` | Figure 4 and Figure 10 |
 | `Spearman's_Correlation.ipynb` | Figure 7, Figure 8 and Figure 12 |

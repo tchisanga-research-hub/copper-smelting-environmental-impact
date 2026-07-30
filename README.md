@@ -62,7 +62,7 @@ Install the dependencies using:
 pip install -r requirements.txt
 ```
 ### R Environment
-The R code was developed using R version 4.5.3 and the packages listed in `renv.lock`.
+The R code was developed using R version 4.5.3 and the packages are listed in `renv.lock`.
 The packages include: 
  - vegan
  - corrplot

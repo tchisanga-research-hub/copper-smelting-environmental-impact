@@ -1,4 +1,4 @@
-# Code for: Environmental Impact of Copper Smelting on Surrounding Areas: Case Study of Kankoyo Township
+# Analysis Code for: Environmental Impact of Copper Smelting on Surrounding Areas: Case Study of Kankoyo Township
 ## Overview
 This repository contains the analysis code for the manuscript:
 **Authors:** Tracy Chisanga<sup>1*</sup>, Santhi Kumaran<sup>2</sup>, Josephat Kalezhi<sup>2</sup> ,Omar Haji Kombo<sup>3</sup>
@@ -7,7 +7,7 @@ This repository contains the analysis code for the manuscript:
 **Status:** Accepted in Principle
 **Journal:** Scientific Reports
 **Official Paper DOI:** Pending (available upon final publication)
-**Code DOI:** https://doi.org
+**Code DOI:** To be assigned upon archival release
 
 ## Citation
 This manuscript has been accepted in principle for publication. The official journal DOI and full citation will be added upon formal publication.
@@ -127,7 +127,7 @@ The Tables below show the output that are produced and included in the manuscrip
 | `Soil_properties_influence_on_PTEs_concentrations.R` | Table 5  |
 
 ## Reproducibility
-This repository supports reproducible research by documenting the computational environments and analytical procedures used in the study.
+This repository supports reproducible research by providing the code, computational environments, and analytical workflows used to generate the results, figures, and tables reported in the manuscript.
 The following files are provided:
 * `renv.lock` records the R package environment, including the specific package versions required to reproduce the R-based analyses.
 * `requirements.txt` records the Python dependencies required to run the Python-based analyses.

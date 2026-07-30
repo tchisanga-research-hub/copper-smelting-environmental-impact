@@ -51,16 +51,16 @@ copper-smelting-environmental-impact/
 | `Soil_properties_influence_on_PTEs_concentrations.R` | Performs PERMANOVA to evaluate the influence of soil properties, specifically pH and organic matter (OM), on PTEs concentrations in topsoil and subsoil layers. The script assesses how variations in soil characteristics explain differences in PTEs composition between soil profiles. |
 
 
-## Software requirements
+## Software Requirements 
 
-### Python environment
+### Python Environment
 The Python code was developed using Python version 3.10.12 and Jupyter Notebook version 7.5.5.
 Required Python dependencies are listed in `requirements.txt`.
 Install the dependencies using:
 ```
 pip install -r requirements.txt
 ```
-### R environment
+### R Environment
 The R code was developed using R version 4.5.3 and the packages listed in `renv.lock`.
 The packages include: 
  - vegan

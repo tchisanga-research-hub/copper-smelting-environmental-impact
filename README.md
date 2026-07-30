@@ -1,7 +1,7 @@
 # Analysis Code for: Environmental Impact of Copper Smelting on Surrounding Areas: Case Study of Kankoyo Township
 ## Overview
 This repository contains the analysis code for the manuscript:
-**Authors:** Tracy Chisanga<sup>1*</sup>, Santhi Kumaran<sup>2</sup>, Josephat Kalezhi<sup>2</sup> ,Omar Haji Kombo<sup>3</sup>
+**Authors:** Tracy Chisanga<sup>1*</sup>, Santhi Kumaran<sup>2</sup>, Josephat Kalezhi<sup>2</sup> , Omar Haji Kombo<sup>3</sup>
 **Affiliations:** <sup>1,2</sup> The Copperbelt University, <sup>3</sup>The State University of Zanzibar
 **Contact:** Corresponding Author (*tracy.chisanga@cbu.ac.zm*)
 **Status:** Accepted in Principle

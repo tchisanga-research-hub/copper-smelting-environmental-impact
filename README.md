@@ -111,7 +111,7 @@ The Tables below show the output that are included in the manuscript
 |----------|-------------|
 | `Normality_Tests.ipynb` | Table 3, Table 4, Figure 5 and Figure 6 |
 | `PCA_analysis.ipynb` | Figure 11 and loadings values|
-| `Regression_Analyses.ipynb` | Figure 4, Figure 10 |
+| `Regression_Analyses.ipynb` | Figure 4 and Figure 10 |
 | `Spearman's_Correlation.ipynb` | Figure 7, Figure 8 and Figure 12 |
 
 #### R Scripts

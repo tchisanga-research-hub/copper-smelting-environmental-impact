@@ -104,6 +104,23 @@ The generated outputs include:
 - Publication-quality figures used in the manuscript
 - Tables summarizing analytical results
 
+The Tables below show the output that are included in the manuscript
+#### Jupyter Notebooks
+
+|Notebooks| Outputs Used in Manuscript   |
+|----------|-------------|
+| `Normality_Tests.ipynb` | Table 3, Table 4, Figure 5 and Figure 6 |
+| `PCA_analysis.ipynb` | Figure 11 and loadings values|
+| `Regression_Analyses.ipynb` | Figure 4, Figure 10 |
+| `Spearman's_Correlation.ipynb` | Figure 7, Figure 8 and Figure 12 |
+
+#### R Scripts
+
+| Script | Outputs Used in Manuscript  |
+|--------|-------------|
+| `Geographical_factors_influence_on_PTEs_Concentration.R` |Table 6 and Figure 9  |
+| `Soil_properties_influence_on_PTEs_concentrations.R` | Table 5  |
+
 ## Reproducibility
 This repository supports reproducible research by documenting the computational environments and analytical procedures used in the study.
 The following files are provided:

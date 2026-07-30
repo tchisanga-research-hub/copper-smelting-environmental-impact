@@ -11,7 +11,7 @@ This repository contains the analysis code for the manuscript:
 
 ## Citation
 This manuscript has been accepted in principle for publication. The official journal DOI and full citation will be added upon formal publication.
-If you use the code provided in this repository, please cite the archived code repository. After the journal article is published, please also cite the corresponding publication.
+Users who utilize the code and computational resources provided in this repository should cite this code repository. After the journal article is published, please also cite the corresponding publication.
 
 ## Data Availability
 The datasets used in this study are not included in this repository. The analyses scripts require the relevant input datasets to be available in the appropriate directory before execution. Please refer to the associated publication for information on data availability.

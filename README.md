@@ -100,11 +100,11 @@ The generated outputs include:
 - Tables summarizing analytical results
 
 ## Reproducibility
-This repository is structured to support reproducible research by documenting the computational environments and analytical workflow used in the study.
+This repository supports reproducible research by documenting the computational environments and analytical procedures used in the study.
 The following files are provided:
-* renv.lock records the R package environment, including the specific package versions required to reproduce the R-based analyses.
-* requirements.txt records the Python dependencies required to run the Python-based analyses.
-* Version-controlled R scripts and Jupyter notebooks document the complete analytical workflow and allow the analyses to be reproduced.
+* `renv.lock` records the R package environment, including the specific package versions required to reproduce the R-based analyses.
+* `requirements.txt` records the Python dependencies required to run the Python-based analyses.
+* Version-controlled R scripts and Jupyter notebooks document the statistical analyses, visualizations, and computational procedures used in the study, enabling the reproduction of the reported results, figures, and tables.
 
 ## Authors
 

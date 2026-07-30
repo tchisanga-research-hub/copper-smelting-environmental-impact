@@ -1,9 +1,19 @@
-# copper-smelting-environmental-impact
+# Code for: Environmental Impact of Copper Smelting on Surrounding Areas: Case Study of Kankoyo Township
 ## Overview
-This repository contains the source code used for the analysis presented in the research paper:
-**"Environmental Impact of Copper Smelting on Surrounding Areas: Case Study of Kankoyo Township"**
+This repository contains the analyses scripts and code for the manuscript:
+**Authors:** Tracy Chisanga<sup>1*</sup>, Santhi Kumaran<sup>2</sup>, , Josephat Kalezhi<sup>2</sup> ,Omar Haji Kombo<sup>3</sup>
+**Affiliations:** <sup>1,2</sup> The Copperbelt University, <sup>3</sup>The State University of Zanzibar
+**Contact:** Corresponding Author (*tracy.chisanga@cbu.ac.zm*)
+**Status:** Accepted in Principle / Forthcoming (2026)
+**Journal:** Scientific Reports
+**Official Paper DOI:** [Pending - Will be updated upon final publication]
+**Code DOI:** https://doi.org
 
-The repository provides the R and Python scripts used for data processing, statistical analyses, Regression analyses, visualization, and generation of results reported in the study.
+## How to Cite This Work
+A permanent DOI and full citation will be added here upon formal publication. In the meantime, if you use this code, please cite this archive repository:
+
+## Data Availability
+The datasets used in this study are not included in this repository.
 
 ## Repository Structure
 ```text
@@ -50,7 +60,6 @@ Install the dependencies using:
 ```
 pip install -r requirements.txt
 ```
-
 ### R environment
 The R code was developed using R version 4.5.3 and the packages listed in `renv.lock`.
 The packages include: 
@@ -67,10 +76,6 @@ install.packages("renv")
 renv::restore()
 ```
 This will install the required R packages with the appropriate versions.
-
-## Data Availability
-The datasets used in this study are not included in this repository.
-The analyses scripts require the relevant input datasets to be available in the appropriate directory before execution. Please refer to the associated publication for information on data availability.
 
 ## Running the Code 
 
@@ -105,31 +110,6 @@ The following files are provided:
 * `renv.lock` records the R package environment, including the specific package versions required to reproduce the R-based analyses.
 * `requirements.txt` records the Python dependencies required to run the Python-based analyses.
 * Version-controlled R scripts and Jupyter notebooks document the statistical analyses, visualizations, and computational procedures used in the study, enabling the reproduction of the reported results, figures, and tables.
-
-## Authors
-
-**Tracy Chisanga**  
-Corresponding author and repository maintainer
-
-ORCID: https://orcid.org/0000-0001-8281-0901
-
-For questions regarding the code or analysis, please contact:
-
-tracy.chisanga@gmail.com
-
-## Contributors
-This repository contains code developed as part of the research study by:
-- Tracy Chisanga (Corresponding author)
-- Santhi Kumaran
-- Josephat Kalezhi
-- Omar Haji Kombo
-
-## Citation
-
-If you use this code, please cite the associated research article and this repository.
-Software repository:
-Author(s). (Year). copper-smelting-environmental-impact.
-Zenodo. DOI: [insert DOI]
 
 ## License
 This project is released under the MIT License.

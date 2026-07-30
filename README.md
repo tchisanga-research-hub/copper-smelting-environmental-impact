@@ -7,11 +7,14 @@ This repository contains the analysis code for the manuscript:
 - **Status:** Accepted in Principle
 - **Journal:** Scientific Reports
 - **Official Paper DOI:** Pending (available upon final publication)
-- **Code DOI:** To be assigned upon archival release
+- **Code DOI:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21704146.svg)](https://doi.org/10.5281/zenodo.21704146)
 
 ## Citation
 This manuscript has been accepted in principle for publication. The official journal DOI and full citation will be added upon formal publication.
-Users who utilize the code and computational resources provided in this repository should cite this code repository. After the journal article is published, please also cite the corresponding publication.
+Users who utilize the code and computational resources provided in this repository should cite the archived code repository:
+> Chisanga, T., Kumaran, S., Kalezhi, J.& Kombo, O. H. (2026). Analysis Code for: Environmental Impact of Copper Smelting on Surrounding Areas: Case Study of Kankoyo Township (Version v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21704146
+
+After the journal article is published, please also cite the corresponding publication.
 
 ## Data Availability
 The datasets used in this study are not included in this repository. The analyses scripts require the relevant input datasets to be available in the appropriate directory before execution. Please refer to the associated publication for information on data availability.

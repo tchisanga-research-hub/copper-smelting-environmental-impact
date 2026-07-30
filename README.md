@@ -24,21 +24,32 @@ copper-smelting-environmental-impact/
 ├── renv.lock
 └── requirements.txt
 ```
+## Jupyter Notebooks
 
-Python Notebooks
-Notebook	Description
-01_notebook_name.ipynb	Performs the first stage of the Python analysis.
-02_notebook_name.ipynb	Carries out additional data processing and exploratory analysis.
-03_notebook_name.ipynb	Implements the main analytical methods used in the study.
-04_notebook_name.ipynb	Produces supplementary analyses or validation results.
-05_notebook_name.ipynb	Generates figures, tables, or additional outputs for the manuscript.
+| Notebook | Description |
+|----------|-------------|
+| `Normality_Tests.ipynb` | Assesses the normality distribution of soil properties and potentially toxic elements (PTEs) in both the topsoil and subsoil layers using the Shapiro–Wilk test. The analyses identifies significant departures from normality using p-values (α = 0.05) and calculates skewness and kurtosis to describe the distribution characteristics of the data. |
+| `PCA_analysis.ipynb` | Performs Principal Component Analysis (PCA) to investigate differences in the multivariate distribution of PTEs between topsoil and subsoil samples. The analysis reduces data dimensionality, identifies major patterns of variation, and uses PCA biplots to visualize similarities and differences between soil layers in ordination space. |
+| `Regression_Analyses.ipynb` | Performs linear regression analysis to evaluate relationships between distance from emission source (dES) and soil properties, including pH, organic matter (OM), and PTEs concentrations in the topsoil layer. |
+| `Spearman's_Correlation.ipynb` | Performs Spearman rank correlation analysis to evaluate relationships among PTEs within each soil profile and investigates vertical relationships between topsoil and subsoil pH, organic matter, and PTEs concentrations. |
 
-R Scripts
-Script	Description
-01_data_processing.R	Imports, cleans, and prepares the data for analysis.
-02_statistical_analysis.R	Performs the statistical analyses presented in the study.
-03_visualization.R	Generates the figures and visualizations reported in the manuscript.
+## R Scripts
+
+| Script | Description |
+|--------|-------------|
+| `Geographical_factors_influence_on_PTEs_Concentration.R` | Performs multivariate analyses to evaluate the influence of geographical factors on potentially toxic elements (PTEs) concentrations in the topsoil layer. The script applies PERMANOVA to assess the effects of elevation, distance from the emission source (dES), and distance from major roads (dRD), and uses distance-based redundancy analysis (dbRDA) to explore relationships between geographical factors and PTEs distributions. |
+| `Soil_properties_influence_on_PTEs_concentrations.R` | Performs PERMANOVA to evaluate the influence of soil properties, specifically pH and organic matter (OM), on PTEs concentrations in topsoil and subsoil layers. The script assesses how variations in soil characteristics explain differences in PTEs composition between soil profiles. |
+
+
 ## Software requirements
+
+### Python environment
+The Python code was developed using Python version 3.10.12 and Jupyter Notebook version 7.5.5.
+Required Python dependencies are listed in `requirements.txt`.
+Install the dependencies using:
+```
+pip install -r requirements.txt
+```
 
 ### R environment
 The R code was developed using R version 4.5.3 and the packages listed in `renv.lock`.
@@ -57,19 +68,18 @@ renv::restore()
 ```
 This will install the required R packages with the appropriate versions.
 
-### Python environment
-The Python code was developed using Python version 3.10.12 and Jupyter Notebook version 7.5.5.
-Required Python dependencies are listed in `requirements.txt`.
-Install the dependencies using:
-```
-pip install -r requirements.txt
-```
-
 ## Data Availability
 The datasets used in this study are not included in this repository.
 The analyses scripts require the relevant input datasets to be available in the appropriate directory before execution. Please refer to the associated publication for information on data availability.
 
 ## Running the Code 
+
+### Jupyter Notebooks
+1. Launch Jupyter Notebook using:
+```
+jupyter notebook
+```
+2. Open the notebooks (`.ipynb`) from the `python/` directory and execute the cells in the order they are written. The `Normality_Tests.ipynb` notebook should be run first, as the results determine the appropriate statistical approaches for the downstream analyses. The remaining notebooks can then be executed as required, depending on the selected analytical workflow.
 
 ### R Scripts
 1. Open the project in RStudio.
@@ -78,13 +88,6 @@ The analyses scripts require the relevant input datasets to be available in the 
 renv::restore()
 ```
 3. Run the R scripts located in the R/ directory. The scripts are independent and can be executed in any order; they do not need to be run sequentially.
-
-### Jupyter Notebooks
-1. Launch Jupyter Notebook using:
-```
-jupyter notebook
-```
-2. Open the notebook (.ipynb) from the python/ directory and execute the cells in the order they are written. The notebooks are independent and may be executed in any order. 
 
 ## Outputs
 The scripts generate the statistical results, tables, and figures used in the research study.
